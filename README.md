@@ -25,3 +25,7 @@ mkvirtualenv -p python3.8 {repository_name}
 ```sh
 poetry install
 ```
+5. Install pre-commit hooks
+```sh
+pre-commit install
+```

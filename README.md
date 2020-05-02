@@ -29,3 +29,14 @@ poetry install
 ```sh
 pre-commit install
 ```
+
+
+## Running tests
+```sh
+pytest
+```
+
+- running test with checking test coverage
+```sh
+pytest --cov={repository_name} tests/
+```

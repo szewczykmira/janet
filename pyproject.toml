@@ -17,3 +17,14 @@ mypy = "^0.770"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+#[tool.isort]
+
+#[tool.bandit]
+
+#[tool.mypy]

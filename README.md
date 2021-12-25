@@ -40,3 +40,7 @@ pytest
 ```sh
 pytest --cov={repository_name} tests/
 ```
+
+
+## Exporting requirements
+You can export requirements with `poetry export > requirements.txt`

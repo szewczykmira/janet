@@ -33,8 +33,7 @@ jobs:
         POETRY_VIRTUALENVS_CREATE: false
   
     - name: Get started poetry
-      run: |
-        poetry install
+      run: poetry install
     
     - name: Run tests
       run: pytest

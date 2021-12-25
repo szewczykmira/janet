@@ -5,22 +5,22 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-pre-commit = "^2.3.0"
-ipython = "^7.18.1"
+python = "^3.9"
+pre-commit = "^2.16.0"
+ipython = "^7.30.1"
 
 [tool.poetry.dev-dependencies]
-black = "^19.10b0"
-isort = "^4.3.21"
-bandit = "^1.6.2"
-mypy = "^0.770"
-pytest = "^5.4.1"
-pytest-sugar = "^0.9.3"
-pytest-cov = "^2.8.1"
+black = "^21.12b0"
+isort = "^5.10.1"
+bandit = "^1.7.1"
+mypy = "^0.930"
+pytest = "^6.2.5"
+pytest-sugar = "^0.9.4"
+pytest-cov = "^3.0.0"
 
 [tool.black]
 line-length = 100
-target-version = ['py38']
+target-version = ['py39']
 
 [tool.isort]
 multi_line_output = 3

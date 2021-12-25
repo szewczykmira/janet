@@ -23,9 +23,9 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Set up python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v2
       with:
-        python-version: 3.8
+        python-version: 3.9
     
     - name: Poetry Install
       uses: knowsuchagency/poetry-install@v2

@@ -3,7 +3,7 @@ Template python repository
 
 
 ## Requirements:
-1. Project is running with python 3.8+
+1. Project is running with python 3.9+
 2. [Poetry](https://python-poetry.org/docs/) is required to work with dependencies
 
 
@@ -14,10 +14,10 @@ Template python repository
 ```sh
 git clone git@github.com:{username}/{repository_name}.git
 ```
-2. Enter the repository and create virtualenv with python 3.8
+2. Enter the repository and create virtualenv with python 3.9
 ```sh
 cd {repository_name}
-mkvirtualenv -p python3.8 {repository_name}
+mkvirtualenv -p python3.9 {repository_name}
 # If you use just virtualenv then: virtualenv {repository_name}
 ```
 3. **[Optional]** you can update project's name in `pyproject.toml`
